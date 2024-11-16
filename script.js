@@ -23,3 +23,8 @@ menuIcon.onclick = () => {
     menuIcon.classList.toggle('bx-x');
     navbar.classList.toggle('active');
 }
+
+const input = document.getElementById('submit');
+input.addEventListener('click', function(){
+    alert("Thank you for reaching out! Your message has been successfully sent.");
+});
